@@ -1,0 +1,115 @@
+
+body {
+    font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    background-color: #121212; 
+    color: #f1f1f1; 
+}
+
+
+:root {
+    --accent-color: #ff5722; 
+    --card-bg: #1e1e1e; 
+    --text-muted-dark: #b0b0b0;
+}
+
+
+.navbar {
+    background-color: var(--card-bg) !important;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); 
+}
+.navbar-brand {
+    font-weight: 800;
+    font-size: 1.6rem;
+    color: var(--accent-color) !important;
+}
+.nav-link {
+    color: #f1f1f1 !important;
+    transition: color 0.3s;
+}
+.nav-link:hover {
+    color: var(--accent-color) !important;
+}
+
+
+.card {
+    background-color: var(--card-bg);
+    border: 1px solid #333;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 250px; 
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.card-title a {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 1.3rem;
+    transition: color 0.3s;
+}
+.card-title a:hover {
+    color: var(--accent-color);
+}
+.card-text {
+    color: var(--text-muted-dark);
+}
+
+.btn-primary {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+.btn-primary:hover {
+    background-color: #e64a19; 
+    border-color: #e64a19;
+}
+
+
+.detail-title {
+    color: var(--accent-color);
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.1;
+    text-shadow: 0 0 5px rgba(255, 87, 34, 0.5);
+}
+.detail-meta {
+    color: var(--text-muted-dark);
+}
+.detail-image {
+    border-radius: 10px;
+    border: 2px solid var(--accent-color);
+}
+.content {
+    font-size: 1.15rem; 
+    line-height: 2;
+    color: #e0e0e0;
+}
+.content p {
+    margin-bottom: 2rem;
+    text-align: justify;
+}
+.content .lead {
+    font-weight: 500;
+    color: #ffffff;
+    border-left: 4px solid var(--accent-color);
+    padding-left: 15px;
+    margin-bottom: 2.5rem;
+}
+
+
+footer {
+    background-color: var(--card-bg) !important;
+    border-top: 1px solid #333;
+}
